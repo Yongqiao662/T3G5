@@ -71,7 +71,7 @@ class TeachingStrategyRecommender {
             strategies[index++] = "Lecture-Based Teaching with Interactive Q&A";
         }
 
-        // Return only the filled part of the array (ignoring null values)
+        
         String[] result = new String[index];
         System.arraycopy(strategies, 0, result, 0, index);
         return result;
