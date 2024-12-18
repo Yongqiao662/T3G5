@@ -194,7 +194,7 @@ public class TeachingStrategyApp {
         
         Course course = new Course("Consolidated Course", courseType, gradeLevel, classSize);
 
-        // Recommend and display strategies
+       
         String[] strategies = TeachingStrategyRecommender.recommendStrategies(course, teacher);
         TeachingStrategyRecommender.displayStrategiesWithDescriptions(strategies);
     }
