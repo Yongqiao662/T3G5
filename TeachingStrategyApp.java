@@ -30,7 +30,7 @@ class Teacher {
     int yearsOfExperience;
     String teachingStyle;
     boolean comfortWithTechnology;
-    String[] coursesTaught; // Using an array instead of List
+    String[] coursesTaught; 
 
     public Teacher(String name, String fieldOfStudy, int yearsOfExperience, String teachingStyle, boolean comfortWithTechnology, String[] coursesTaught) {
         this.name = name;
@@ -59,7 +59,7 @@ class Course {
 class TeachingStrategyRecommender {
 
     public static String[] recommendStrategies(Course course, Teacher teacher) {
-        String[] strategies = new String[10];  // Create an array of size 10 (adjust if necessary)
+        String[] strategies = new String[10];  
         int index = 0;
 
         if (course.type.equalsIgnoreCase("Lecture")) {
@@ -129,7 +129,7 @@ public class TeachingStrategyApp {
         System.out.print("Enter a username: ");
         String username = scanner.nextLine();
 
-        for (int i = 0; i < userCount; i++) { // Check if username already exists
+        for (int i = 0; i < userCount; i++) { 
             if (userDatabase[i].username.equals(username)) {
                 System.out.println("Username already exists. Please try logging in.");
                 return;
