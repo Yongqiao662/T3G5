@@ -176,7 +176,7 @@ public class TeachingStrategyApp {
     public static void teachingStrategyApp(Scanner scanner) {
         System.out.println("\n--- Teaching Strategy Recommendation App ---");
 
-        // Input teacher details
+       
         System.out.print("Enter teacher's name: ");
         String name = scanner.nextLine();
         System.out.print("Enter field of study: ");
@@ -196,7 +196,7 @@ public class TeachingStrategyApp {
 
         Teacher teacher = new Teacher(name, fieldOfStudy, experience, teachingStyle, comfortWithTech, courses);
 
-        // Input course details
+
         System.out.print("Enter course type (Lecture/Lab/Seminar): ");
         String courseType = scanner.nextLine();
         int gradeLevel = getValidIntInput(scanner, "Enter grade level (1 for Undergraduate, 2 for Postgraduate): ");
