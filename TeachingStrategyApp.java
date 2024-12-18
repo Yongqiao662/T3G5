@@ -44,8 +44,8 @@ class Teacher {
 
 class Course {
     String name;
-    String type; // Lecture, Lab, Seminar
-    int gradeLevel; // Undergraduate or Postgraduate
+    String type; 
+    int gradeLevel; 
     int classSize;
 
     public Course(String name, String type, int gradeLevel, int classSize) {
